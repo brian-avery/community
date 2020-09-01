@@ -27,15 +27,14 @@ requirements:
     * A reference to the design doc / issue is published on istio.io.
 
 * Tests
-    * Test coverage is >= 70%.
     * Integration tests cover core use cases with the feature enabled.
     * When disabled the feature does not affect system stability or performance.
 
 * Performance
-    * Performance requirements assessed as part of design.
+    * Performance requirements have been measured.
 
 * API
-    * (Optional) Initial API review.
+    * Initial API review.
 
 ## Beta
 
@@ -52,7 +51,6 @@ An Alpha feature can be officially labeled as Beta once it meets the following a
     * Documentation on istio.io includes appropriate glossary entries
 
 * Tests
-    * Test coverage is >= 80%
     * Integration tests cover feature edge cases
     * End-to-end tests cover samples/tutorials
     * Fixed issues have tests to prevent regressions
@@ -74,7 +72,6 @@ An Alpha feature can be officially labeled as Beta once it meets the following a
 A Beta feature can be officially labeled as Stable once it meets the following additional requirements:
 
 * Tests
-    * Test coverage is >= 90%
     * Automated tests are in place to prevent performance regressions.
 
 * Performance
